@@ -33,3 +33,12 @@ let gente = [{
     },
 ]
 
+var i = 0;
+while (i < gente.length) {
+  filt=gente[i].nombre;
+  if (filt.length==4){
+      console.log(gente[i]);
+    };
+  i++;
+}
+
