@@ -5,6 +5,18 @@
 
 
 // Aquí tu código
+obj={
+    a:{
+        b:typeof true === 'boolean',
+        c:[j=1, k=2,],
+  
+    },
+    d:6,
+    f:'Test',
+
+
+
+};
 
 // Hasta aquí
 
