@@ -36,7 +36,7 @@ let gente = [{
 
 var i = 0;
 while (i < gente.length) {
-  nom=gente[i].nombre;
+  nom=gente[i].nombre; 
   if (nom.charAt(0)=="J"){
       console.log(gente[i]);
     };
