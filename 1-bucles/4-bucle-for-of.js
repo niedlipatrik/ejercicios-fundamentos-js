@@ -33,3 +33,18 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+// for (var personas = 0; personas++;) console.log(personas);
+ 
+// for (var i = 0; i <=gente.length; i++) console.log(gente[i]);
+
+
+var i = 0;
+while (i < gente.length) {
+  num=gente[i].edad;
+  if (num>=25){
+      console.log(gente[i]);
+    };
+  i++;
+}
