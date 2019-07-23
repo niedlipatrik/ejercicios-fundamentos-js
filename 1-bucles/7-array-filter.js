@@ -35,3 +35,13 @@ let gente = [{
     },
 ]
 
+
+var i = 0;
+while (i < gente.length) {
+  nom=gente[i].nombre;
+  eda=gente[i].edad;
+  if (nom.charAt(0)=="J" && eda>40){
+      console.log(gente[i]);
+    };
+  i++;
+}
